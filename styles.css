@@ -1,14 +1,17 @@
 body{
     margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .signUpContainer{
     display: flex;
+    width: 1440px;
+    height: 1024px;
 }
 
 .signUpLogoImg{
     height: fit-content;
-    opacity: 60%;
+    opacity: 85%;
 }
 
 .odinLogo{
@@ -17,7 +20,7 @@ body{
 }
 
 .signUpLogoText{
-    background-color: rgba(0, 0, 0, 0.696);
+    background-color:#596d4872;
     margin-top: -500px;
     display: flex;
     justify-content: center;
@@ -30,11 +33,6 @@ body{
     color: rgb(255, 255, 255);
     font-size: 50px;
     position: sticky;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.signUpForm{
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .signUpForm .top p{
@@ -44,17 +42,11 @@ body{
 }
 
 .signUpForm .top {
-    padding: 50px;
-}
-
-.p_top{
-    width: 58%;
+    margin: 50px 0px 50px 50px;
 }
 
 .signUpForm .middle{
-    padding: 5px 50px;
-    width: 99.3%;
-    box-shadow: 0px 1px 5px #555;
+    margin: 0px 0px 50px 50px;
     color: #222;
 }
 
@@ -74,7 +66,8 @@ h2{
 }
 
 label{
-    font-size: 17px;
+    font-size: 14px;
+    color: #535353;
 }
 
 input{
@@ -82,17 +75,39 @@ input{
     height: 25px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid #777777;
+    border: 1px solid #a0a0a0;
     padding: 5px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-.signUpForm .bottom{
-    padding: 45px 50px;
+.passwords input:invalid{
+    border: 2px solid red;
+}
+
+/* .passwords input:valid{
+    border: 2px solid rgb(0, 255, 0);
+} */
+
+input:focus-visible{
+    outline: none;
+}
+
+.first_last_name input:focus{
+    border: 2px solid rgb(38, 94, 250);
+    box-shadow: 2px 4px 6px #777;
+}
+
+.email_phone input:focus{
+    border: 2px solid rgb(38, 94, 250);
+    box-shadow: 2px 4px 6px #777;
+}
+
+.signUpForm .createAccountBtnCont{
+    margin-top: 50px;
 }
 
 .createAccountBtn{
-    background-color: #124a0d;
+    background-color: #596D48;
     border: none;
     border-radius: 10px;
     padding: 15px 25px;
@@ -100,10 +115,15 @@ input{
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
+    box-shadow: 6px 6px 4px #777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
 }
 
-.bottom b{
-    color: #124a0d;
-    font-size: 1.2em;
+.createAccountBtnCont p{
+    font-size: 18px;
+}
+
+.createAccountBtnCont a{
     cursor: pointer;
+    font-weight: 700;
 }

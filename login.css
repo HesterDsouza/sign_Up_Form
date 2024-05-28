@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loginContainer{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+.signUpLogoImg{
+    height: fit-content;
+    opacity: 85%;
+}
+
+.odinLogo{
+    width: 70px;
+    height: 100px;
+}
+
+.signUpLogoText{
+    background-color:#596d4872;
+    margin-top: -500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    gap: 10px;
+}
+
+.signUpLogoText p{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: sticky;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px 300px;
+}
+
+.formShadow{
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px #a4a3a3;
+}
+
+.loginForm h2{
+    font-size: 25px;
+    margin-top: -2px;
+    color: #55624a;
+}
+
+.loginForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginForm label{
+    font-size: 22px;
+    color: #535353;
+}
+
+.loginForm input{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #a0a0a0;
+}
+
+.loginForm .email, .password{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.loginForm .loginBtn{
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #00532c;
+    background-color: #00532c72;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
