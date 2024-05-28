@@ -89,3 +89,72 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
 }
 
+/* Media Queries */
+@media (max-width: 1024px) {
+    .signUpLogoText p {
+        font-size: 40px;
+    }
+
+    .loginForm {
+        margin: 150px 200px;
+    }
+
+    .loginForm h2 {
+        font-size: 20px;
+    }
+
+    .loginForm label {
+        font-size: 18px;
+    }
+
+    .loginForm input {
+        font-size: 14px;
+    }
+
+    .loginForm .loginBtn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .loginContainer {
+        height: auto;
+    }
+
+    .signUpLogoImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .signUpLogoText {
+        margin-top: -400;
+    }
+
+    .signUpLogoText p {
+        font-size: 40px;
+    }
+
+    .loginForm {
+        margin: 100px 100px;
+    }
+
+    .formShadow {
+        padding: 20px;
+    }
+
+    .loginForm h2 {
+        font-size: 20px;
+    }
+
+    .loginForm label {
+        font-size: 18px;
+    }
+
+    .loginForm input {
+        font-size: 16px;
+    }
+
+    .loginForm .loginBtn {
+        font-size: 16px;
+    }
+}

@@ -127,3 +127,81 @@ input:focus-visible{
     cursor: pointer;
     font-weight: 700;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .signUpLogoText p {
+        font-size: 40px;
+    }
+
+    .signUpForm .top p, .signUpForm .middle h2 {
+        font-size: 16px;
+    }
+
+    input {
+        width: 180px;
+        font-size: 14px;
+    }
+
+    .first_last_name, .email_phone, .passwords {
+        gap: 150px;
+    }
+
+    .createAccountBtn {
+        font-size: 16px;
+    }
+
+    .createAccountBtnCont p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .signUpContainer {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .signUpLogoImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .signUpLogoText {
+        margin-top: -400px;
+    }
+
+    .signUpLogoText p {
+        font-size: 30px;
+    }
+
+    .signUpForm {
+        width: 90%;
+        margin: 0;
+    }
+    
+    .signUpForm .top p, .signUpForm .middle h2 {
+        font-size: 14px;
+    }
+
+    .signUpForm .top .p_top{
+        width: 38%;
+    }
+
+    input {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .first_last_name, .email_phone, .passwords {
+        gap: 20px;
+    }
+
+    .createAccountBtn {
+        font-size: 14px;
+    }
+
+    .createAccountBtnCont p {
+        font-size: 14px;
+    }
+}
